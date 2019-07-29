@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import Protected from './Routes/Protected';
 import Public from './Routes/Public';
 import Home from "./Pages/Home"
-import Especialities from "./Pages/Especialities"
+import Specialities from "./Pages/Specialities"
 import Especiality from './Pages/Especiality'
 import Courses from './Pages/Courses'
 import Course from './Pages/Course'
@@ -19,7 +19,7 @@ const App = () => (
       <Header />
       <Switch>
         <Protected path="/" exact component={Home}/>
-        <Protected path="/especialidades" exact component={Especialities}/>
+        <Protected path="/especialidades" exact component={Specialities}/>
         <Protected path="/especialidades/:id" exact component={Especiality}/>
         <Protected path="/cursos" exact component={Courses}/>
         <Protected path="/cursos/:id" exact component={Course}/>

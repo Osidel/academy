@@ -42,8 +42,8 @@ export const getAllCourses = () => dispatch => {
   )
 }
 export const getAllTeachers = () => dispatch => {
-  Axios.get(`${API_URL}/profesores`).then(
-    resp => {
+  Axios.get(`${API_URL}/profesores`)
+  .then(resp => {
       return dispatch({
         type: GET_ALL_TEACHERS,
         teachers: resp.data

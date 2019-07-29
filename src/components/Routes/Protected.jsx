@@ -9,7 +9,7 @@ const Protected = ({component: Component, ...rest }) => {
     return <Redirect to="/Login"/> 
   }
 
-  return <Route {...rest} render={Component}/>
+  return <Route {...rest} component={Component}/>
   
 }
 
