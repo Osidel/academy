@@ -16,7 +16,7 @@ const Specialities = ({specialities}) => {
     <Banner
     color="dark-color"
     image={{
-    src: "",
+    src: "https://drupal.ed.team/sites/default/files/imagenes-cdn-edteam/2017-11/banner-equipo.jpg",
     alt: "Banner de especialidades"
     }}
     title= "Especialidades"

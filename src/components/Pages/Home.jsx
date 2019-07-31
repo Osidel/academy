@@ -15,10 +15,11 @@ const Home = ({posts}) => {
     <>
       <Banner 
       color="dark-color"
-      image=""
+      image="https://drupal.ed.team/sites/default/files/styles/16_9_medium/public/imagenes-cdn-edteam/2019-07/EspecialidadEdicionAudioVisual.png"
       title="Bienvenido a la expeciencia mas increible en educacion online. Comienza hoy mismo a aprender"
       subtitle="Nuestro equipo a desarrollado esta plataforma pensando en ti. Sabemos que estas buscando contenido de calidad. Aqui lo encontraras"
-      home    
+      home   
+      poster="https://drupal.ed.team/sites/default/files/styles/16_9_medium/public/imagenes-cdn-edteam/2019-07/EspecialidadEdicionAudioVisual.png" 
       />
       <main className="ed-grid m-grid-3">
         <div className="l-section m-cols-2">

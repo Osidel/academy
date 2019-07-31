@@ -4,9 +4,9 @@ import './styles/styles.scss'
 import App from './components/App';
 import {Provider} from 'react-redux'
 import store from './redux/store'
-import { getAllSpecialities, getAllTeachers } from './redux/acionCreators';
+import {getAllCourses, getAllSpecialities, getAllTeachers, getAllPosts, getCourse } from './redux/acionCreators';
 
-store.dispatch(getAllSpecialities(), getAllTeachers())
+store.dispatch(getAllCourses(), getAllSpecialities(), getAllTeachers(), getAllPosts(),getCourse())
 
 ReactDOM.render(
   <Provider store={store}>
